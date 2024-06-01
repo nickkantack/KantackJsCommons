@@ -1,4 +1,6 @@
 
+import { ConfigUtil } from "../config_validation/ConfigUtil.js";
+
 /**
  * This class abstracts away the logic of "debounce" from an application. Debounce is a process
  * of filtering a noisy signal so that the internal state of the debouncer only changes values
@@ -95,3 +97,5 @@ class Debouncer {
     }
 
 }
+
+export { Debouncer }

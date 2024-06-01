@@ -1,4 +1,5 @@
 
-export { ConfigUtil, Shuffler } from "./config_validation/configUtil.js";
-export { Database } from "./indexeddb/database.js";
-export { Debouncer } from "./debouncer/debouncer.js";
+export { ConfigUtil, Shuffler } from "./config_validation/ConfigUtil.js";
+export { Database } from "./indexeddb/Database.js";
+export { Debouncer } from "./debouncer/Debouncer.js";
+export { WebClient } from "./web_client/WebClient.js";

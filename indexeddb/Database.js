@@ -1,5 +1,5 @@
 
-import { ConfigUtil } from "../config_validation/configUtil.js";
+import { ConfigUtil } from "../config_validation/ConfigUtil.js";
 
 class Database {
 
